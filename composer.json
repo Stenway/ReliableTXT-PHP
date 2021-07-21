@@ -2,6 +2,7 @@
     "name": "stenway/reliabletxt",
     "description": "ReliableTXT reference library",
     "type": "library",
+    "homepage": "https://www.reliabletxt.com",
     "license": "MIT",
     "autoload": {
         "psr-4": {
