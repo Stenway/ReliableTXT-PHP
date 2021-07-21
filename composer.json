@@ -6,7 +6,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Stenway\\ReliableTxt\\": "src/"
+            "Stenway\\ReliableTxt\\": "src/Stenway/ReliableTxt"
         }
     },
     "authors": [
