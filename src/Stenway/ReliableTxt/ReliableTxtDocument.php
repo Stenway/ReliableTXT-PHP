@@ -2,7 +2,6 @@
 
 namespace Stenway\ReliableTxt;
 
-use \Exception as Exception;
 use \IntlChar as IntlChar;
 
 class ReliableTxtDocument {

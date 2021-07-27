@@ -25,7 +25,7 @@ abstract class ReliableTxtDecoder {
 				&& ord($bytes[3]) == 0xFF) {
 			return ReliableTxtEncoding::UTF_32;
 		}
-		throw new Exception("Document does not have a ReliableTXT preamble");
+		throw new \Exception("Document does not have a ReliableTXT preamble");
 	}
 	
 	static function decode(string $bytes) : array {
