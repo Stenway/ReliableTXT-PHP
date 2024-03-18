@@ -7,9 +7,7 @@ abstract class ReliableTxtLines {
 		return explode("\n", $utf8Text);
 	}
 	
-	static function join(String ...$utf8lines) : string {
+	static function join(string ...$utf8lines) : string {
 		return implode("\n", $utf8lines);
 	}
 }
-
-?>

@@ -35,11 +35,11 @@ class ReliableTxtDocument {
 	}
 	
 	function getLines() : array {
-		return ReliableTxtDocument::split($this->text);
+		return ReliableTxtLines::split($this->text);
 	}
 	
 	function setLines(string ...$utf8Lines) {
-		$this->text = ReliableTxtDocument::split($utf8Lines);
+		$this->text = ReliableTxtLines::join(...$utf8Lines);
 	}
 	
 	function getCodePoints() : array {
